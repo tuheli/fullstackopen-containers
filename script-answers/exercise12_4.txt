@@ -1,0 +1,737 @@
+Script started on Tue Nov  7 14:23:29 2023
+[1m[7m%[27m[1m[0m                                                                                                                      [0m[27m[24m[Jeliastuhola@MacBook part12-containers-applications % [K[?2004hd
+[0;1;2mreserved word[0m
+declare[27m   [27m  [27mdo[27m        [27m  [27mdone[27m      [27m
+[0;1;2mbuiltin command[0m
+[Jdeclare[27m  [27m[Jdirs[27m   [27m  [27m[Jdisable[27m  [27m[Jdisown[27m [27m[J[4A[0m[27m[24m[53Cd[Kdo
+[J[0;1;2mreserved word[0m
+[Jdo[27m  [27m  [27m[Jdone[27m[J[A[A[0m[27m[24m[53Cdo[Kc[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+docker[27m                       [27m  [27mdocker-compose[27m               [27m  [27mdocker-credential-desktop[27m    [27m
+docker-credential-ecr-login[27m  [27m  [27mdocker-credential-osxkeychain[27m  [27mdocker-index[27m                 [27m
+[J[0;2m[1mcommon substring:[0m [30m[103mdocker[39m[49m[4A[0m[27m[24m[53Cdoc[Kk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+docker[27m                       [27m  [27mdocker-compose[27m               [27m  [27mdocker-credential-desktop[27m    [27m
+docker-credential-ecr-login[27m  [27m  [27mdocker-credential-osxkeychain[27m  [27mdocker-index[27m                 [27m
+[J[0;2m[1mcommon substring:[0m [30m[103mdocker[39m[49m[4A[0m[27m[24m[53Cdock[Ke[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+docker[27m                       [27m  [27mdocker-compose[27m               [27m  [27mdocker-credential-desktop[27m    [27m
+docker-credential-ecr-login[27m  [27m  [27mdocker-credential-osxkeychain[27m  [27mdocker-index[27m                 [27m
+[J[0;2m[1mcommon substring:[0m [30m[103mdocker[39m[49m[4A[0m[27m[24m[53Cdocke[Kr
+[J[0;1;2mexternal command[0m
+docker[27m                       [27m  [27mdocker-compose[27m               [27m  [27mdocker-credential-desktop[27m    [27m
+[Jdocker-credential-ecr-login[27m  [27m  [27m[Jdocker-credential-osxkeychain[27m  [27m[Jdocker-index[27m                 [27m[J[3A[0m[27m[24m[53Cdocker[K
+[J[A[59C 
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[A[A[0m[27m[24m[53Cdocker[K[1Cs
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m[J[A[A[0m[27m[24m[53Cdocker s[Kt
+[J[0;1;2mancestor directory[0m
+[J/Users/eliastuhola[27m/[27m[J[A[A[0m[27m[24m[53Cdocker st[Kar
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m[J[A[A[0m[27m[24m[53Cdocker star[Kt 
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[A[A[0m[27m[24m[53Cdocker start[K[1C-[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mdirectory[0m
+script-answers[27m/[27m  [27mtodo-app[27m/[27m      [27m
+[J[0;2m[1mcommon substring:[0m [30m[103m-a[39m[49m[3A[0m[27m[24m[53Cdocker start -[Ki
+[J[0;1;2mrecent directory[0m
+[J~/Documents/Code/amdahlin-laki[27m/[27m      [27m  [27m[J~/Documents/Code/postgresql-tutorial[27m/[27m[J[A[A[0m[27m[24m[53Cdocker start -i[K
+[J[A[68C 
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[A[A[0m[27m[24m[53Cdocker start -i[K[1C[7msudo apt-get update[27m
+[7msudo apt-get install -y ca-certificates curl gnupg[27m[K
+[7msudo mkdir -p /etc/apt/keyrings[27m[K
+[7mcurl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesou[7mr[7mce.gpg[27m[K[4A[62C[27ms[27mu[27md[27mo[27m [27ma[27mp[27mt[27m-[27mg[27me[27mt[27m [27mu[27mp[27md[27ma[27mt[27me[1B[27ms[27mu[27md[27mo[27m [27ma[27mp[27mt[27m-[27mg[27me[27mt[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27my[27m [27mc[27ma[27m-[27mc[27me[27mr[27mt[27mi[27mf[27mi[27mc[27ma[27mt[27me[27ms[27m [27mc[27mu[27mr[27ml[27m [27mg[27mn[27mu[27mp[27mg[1B[27ms[27mu[27md[27mo[27m [27mm[27mk[27md[27mi[27mr[27m [27m-[27mp[27m [27m/[27me[27mt[27mc[27m/[27ma[27mp[27mt[27m/[27mk[27me[27my[27mr[27mi[27mn[27mg[27ms[1B[27mc[27mu[27mr[27ml[27m [27m-[27mf[27ms[27mS[27mL[27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27md[27me[27mb[27m.[27mn[27mo[27md[27me[27ms[27mo[27mu[27mr[27mc[27me[27m.[27mc[27mo[27mm[27m/[27mg[27mp[27mg[27mk[27me[27my[27m/[27mn[27mo[27md[27me[27ms[27mo[27mu[27mr[27mc[27me[27m-[27mr[27me[27mp[27mo[27m.[27mg[27mp[27mg[27m.[27mk[27me[27my[27m [27m|[27m [27ms[27mu[27md[27mo[27m [27mg[27mp[27mg[27m [27m-[27m-[27md[27me[27ma[27mr[27mm[27mo[27mr[27m [27m-[27mo[27m [27m/[27me[27mt[27mc[27m/[27ma[27mp[27mt[27m/[27mk[27me[27my[27mr[27mi[27mn[27mg[27ms[27m/[27mn[27mo[27md[27me[27ms[27mo[27mur[27mc[27me[27m.[27mg[27mp[27mg
+[J[J[0;2mno matching `output file', `directory', `ancestor directory', `recent directory', or `corrections' completions[0m[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg[K[K
+[J[J[0;2mno matching `output file', `directory', `ancestor directory', `recent directory', or `corrections' completions[0m[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gp[K[K   r [K[A[117C[K[1B[K[A[117C  [1B[J[J[0;2mno matching `output file', `directory', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[A[84D[1B
+[J[0;2mno matching `parent directory or name of directory to create', `ancestor directory', `recent directory', or `correctio ns' completions[0m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[A[84D[1B
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[84D[A[1B
+[J[0;2mno matching `parent directory or name of directory to create', `ancestor directory', `recent directory', or `correctio ns' completions[0m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[A[84D[1B
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[84D
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[84D
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[84D
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[84D
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[84D[1C
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[83D[39C
+[J[0;1;2mexternal command[0m
+[Jsudo[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[44D[5C
+[J[0;1;2mexternal command[0m
+[Jgapi2-codegen[27m  [27m[Jpg_upgrade[27m   [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[39D[4C
+[J[0;1;2moption[0m
+[J--dearmor  -- de-Armor a file or stdin[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[35D[10C
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[25D[3C[22C
+[J[J[0;2mno matching `output file', `directory', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K
+[J[J[0;2mno matching `output file', `directory', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/node[K[K
+[J[J[0;2mno matching `output file', `directory', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nod[K[K             
+[J[0;1;2mdirectory[0m
+[Japache2[27m/[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/ap[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mdirectory[0m
+apache2[27m/[27m                                              [27m  [27masl[27m/[27m                                                  [27m
+[0;1;2moutput file[0m
+afpovertcp.cfg[27m  [27maliases[27m@[27m      [27m  [27maliases.db[27m    [27m  [27masl.conf[27m      [27m  [27mauto_home[27m     [27m  [27mauto_master[27m   [27m  [27mautofs.conf[27m   [27m
+[J[30m[104m(MORE)[39m[49m[8A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/a[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mdirectory[0m
+apache2[27m/[27m    [27m  [27masl[27m/[27m        [27m  [27mcups[27m/[27m       [27m  [27mdefaults[27m/[27m   [27m  [27mdotnet[27m/[27m     [27m  [27mmanpaths.d[27m/[27m [27m  [27mnewsyslog.d[27m/[27m  [27mopenldap[27m/[27m   [27m
+pam.d[27m/[27m      [27m  [27mpaths.d[27m/[27m    [27m  [27mperiodic[27m/[27m   [27m  [27mpf.anchors[27m/[27m [27m  [27mpostfix[27m/[27m    [27m  [27mppp[27m/[27m        [27m  [27mracoon[27m/[27m     [27m  [27msecurity[27m/[27m   [27m
+snmp[27m/[27m       [27m  [27mssh[27m/[27m        [27m  [27mssl[27m/[27m        [27m  [27msudoers.d[27m/[27m  [27m  [27muucp[27m/[27m       [27m  [27mwfs[27m/[27m        [27m  [27m            [27m            [27m
+[J[30m[104m(MORE)[39m[49m[8A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/[K[K
+[J[0;1;2mdirectory[0m
+[Jetc[27m@[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc[K[K
+[J[0;1;2mdirectory[0m
+[Jetc[27m@[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /et[K[K
+[J[0;1;2mdirectory[0m
+[Jetc[27m@[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /e[K[K
+[J[0;1;2mdirectory[0m
+Applications[27m/[27m  [27mLibrary[27m/[27m  [27mSystem[27m/[27m  [27mUsers[27m/[27m  [27mVolumes[27m/[27m  [27mbin[27m/[27m  [27mcores[27m/[27m  [27mdev[27m/[27m  [27metc[27m@[27m  [27mhome[27m@[27m  [27mopt[27m/[27m  [27mprivate[27m/[27m  [27msbin[27m/[27m  [27mtmp[27m@[27m
+[Jusr[27m/[27m         [27m  [27m[Jvar[27m@[27m    [27m  [27m[J       [27m      [27m        [27m    [27m      [27m    [27m    [27m     [27m    [27m        [27m     [27m  [27m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /[K[K
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o[K[1C
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o[K[K 
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor[K[1C
+[J[0;1;2moption[0m
+[J--dearmor  -- de-Armor a file or stdin[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor[K[K
+[J[0;1;2moption[0m
+[J--dearmor  -- de-Armor a file or stdin[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmo[K[K
+[J[0;1;2moption[0m
+[J--dearmor  -- de-Armor a file or stdin[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearm[K[K
+[J[0;1;2moption[0m
+[J--dearmor  -- de-Armor a file or stdin[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dear[K[K
+[J[0;1;2moption[0m
+[J--dearmor  -- de-Armor a file or stdin[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dea[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2moption[0m
+--decrypt        -- decrypt file or stdin                                                                            [27m
+--decrypt-files  -- decrypt multiple files                                                                           [27m
+--delete-keys    -- remove key from public keyring                                                                   [27m
+--detach-sign    -- make a detached signature                                                                        [27m
+[J[30m[104m(MORE)[39m[49m[9A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --de[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2moption[0m
+--decrypt                        -- decrypt file or stdin                                                            [27m
+--decrypt-files                  -- decrypt multiple files                                                           [27m
+--delete-keys                    -- remove key from public keyring                                                   [27m
+--detach-sign                    -- make a detached signature                                                        [27m
+[J[30m[104m(MORE)[39m[49m[9A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --d[K[K [30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[Jzsh: do you wish to see all 84 possibilities (86 lines)? n[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg -[K[K
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg[K[1C 
+[J[0;1;2mexternal command[0m
+[Jgperf[27m  [27m[Jgpt[27m  [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gp[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mexternal command[0m
+g++[27m   [27m  [27mgacutil[27m  [27mgapi2-parser[27m  [27mgdal_grid[27m [27m  [27mgdal_translate[27m  [27m  [27mgdal_viewshed[27m  [27mgdallocationinfo[27m  [27m  [27mgenstrings[27m  [27mgenxs[27m
+geod[27m  [27m  [27mgetconf[27m  [27mgetopts[27m     [27m  [27mgettextize[27m  [27mgit-receive-pack[27m  [27mgit-shell[27m    [27m  [27mgit-upload-archive[27m  [27mgm4[27m       [27m  [27mgpt[27m
+gunzip[27m  [27mgzcat[27m  [27m  [27m            [27m          [27m                [27m             [27m                  [27m          [27m   [27m
+[J[30m[104m(MORE)[39m[49m[8A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo g[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mexternal command[0m
+amt[27m  [27medquota[27m  [27mlibnetcfg5.30[27m  [27mlpc[27m  [27mpgsql2shp[27m  [27mptar5.30[27m  [27msdk[27m  [27mwc[27m  [27mxgettext[27m  [27myacc[27m  [27myapp5.30[27m  [27myapp5.34[27m  [27m[27m[27m[27m[27m[27m[27m[27m
+[J[30m[104m(MORE)[39m[49m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo[K[1C
+[J[0;1;2mexternal command[0m
+[Jsudo[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo[K[K
+[J[0;1;2mexternal command[0m
+[Jsudo[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sud[K[K
+[J[0;1;2mbuiltin command[0m
+[Jsuspend[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | su[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mreserved word[0m
+select[27m
+[0;1;2mbuiltin command[0m
+sched[27m  [27m  [27mset[27m    [27m  [27msetopt[27m [27m  [27mshift[27m  [27m  [27msource[27m [27m  [27msuspend[27m  [27msysopen[27m
+[J[30m[104m(MORE)[39m[49m[8A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | s[K[K
+[J[A[71C 
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key[K[1C 
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.ke[K[K  
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg[K[K   
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo[K[K  
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-r[K[K  
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesourc[K[K  
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nodeso[K[K  
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/nod[K[K  
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgkey/[K[K  
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/gpgk[K[K  
+[J[J[0;2mno matching `arg', `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.com/g[K[K    
+[J[0;2mno matching `arg', `directory', `file', `host', `ancestor directory', `recent directory', or `corrections' completions [0m [J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodesource.[K[K     
+[J[0;2mno matching `arg', `directory', `file', `host', `ancestor directory', `recent directory', or `corrections' completions [0m [J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb.nodes[K[K     
+[J[0;1;2mhost[0m
+[Jbroadcasthost[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://deb[K[K 
+[J[0;1;2mhost[0m
+[Jbroadcasthost[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://d[K[K
+[J[0;1;2mhost[0m
+[Jbroadcasthost[27m  [27m[Jlocalhost[27m    [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https://[K[K
+[J[0;1;2mend of prefix[0m
+[J//[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https:/[K[K
+[J[0;1;2mend of prefix[0m
+[J//[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https:[K[K
+[J[0;1;2mURL prefix[0m
+[Jhttps://[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL https[K[K
+[J[0;1;2mURL prefix[0m
+[Jhttp://[27m [27m  [27m[Jhttps://[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL http[K[K[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mURL prefix[0m
+http://[27m [27m  [27mhttps://[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mhttp[39m[49m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL htt[K[K[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mURL prefix[0m
+http://[27m [27m  [27mhttps://[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mhttp[39m[49m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL ht[K[K[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mURL prefix[0m
+http://[27m [27m  [27mhttps://[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mhttp[39m[49m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL h[K[K
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fsSL[K[1C  
+[J[0;1;2moption[0m
+-f  -- Fail fast with no output on HTTP errors[27m
+[J-s  -- Silent mode[27m[J[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -fs[K[K
+[J[0;1;2moption[0m
+[J-f  -- Fail fast with no output on HTTP errors[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -f[K[K
+[J[0;1;2moption[0m
+--data[27m       [27m  [27m-d[27m  [27m-- HTTP POST data                                                                                [27m
+--fail[27m       [27m  [27m-f[27m  [27m-- Fail fast with no output on HTTP errors                                                       [27m
+--help[27m       [27m  [27m-h[27m  [27m-- Get help for commands                                                                         [27m
+--include[27m    [27m  [27m-i[27m  [27m-- Include protocol response headers in the output                                               [27m
+--output[27m     [27m  [27m-o[27m  [27m-- Write to file instead of stdout                                                               [27m
+[J--remote-name[27m  [27m[J-O[27m  [27m[J-- Write output to a file named as the remote file                                               [27m[J
+--silent[27m     [27m  [27m[J-s[27m  [27m[J-- Silent mode                                                                                   [27m[J
+--upload-file[27m  [27m[J-T[27m  [27m[J-- Transfer local FILE to destination                                                            [27m[J
+[0m[27m[24m[Jeliastuhola@MacBook part12-containers-applications % docker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl -[K[K
+[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl[K[1C
+[J[0;1;2mexternal command[0m
+[Jcurl[27m       [27m  [27m[Jcurl-config[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+curl[K[K[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+curl[27m       [27m  [27mcurl-config[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mcurl[39m[49m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+cur[K[K
+[J[0;1;2mexternal command[0m
+cu[27m         [27m  [27mcups-config[27m  [27mcupsaccept[27m [27m  [27mcupsctl[27m    [27m  [27mcupsd[27m      [27m  [27mcupsdisable[27m  [27mcupsenable[27m [27m  [27mcupsfilter[27m [27m  [27mcupsreject[27m [27m
+[Jcupstestppd[27m  [27m[Jcurl[27m       [27m  [27m[Jcurl-config[27m  [27m[Jcut[27m        [27m  [27m[J           [27m           [27m           [27m           [27m           [27m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+cu[Kc[K
+[J[0;1;2mshell function[0m
+[Jchpwd_recent_filehandler[27m  [27m[Jcompadd[27m  [27m[Jcompaudit[27m  [27m[Jcompdef[27m  [27m[Jcompdump[27m  [27m[Jcompgen[27m  [27m[Jcompinit[27m  [27m[Jcompinstall[27m  [27m[Jcomplete[27m  [27m[J[27m[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrings[K
+c[K[K
+[J[A[K[A[31C  [1B[J[0;2mno matching `parent directory or name of directory to create', `ancestor directory', `recent directory', or `correctio ns' completions[0m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/keyrin[K[K  
+[J[0;2mno matching `parent directory or name of directory to create', `ancestor directory', `recent directory', or `correctio ns' completions[0m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/key[K[K  
+[J[0;2mno matching `parent directory or name of directory to create', `ancestor directory', `recent directory', or `correctio ns' completions[0m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/apt/[K[K 
+[J[0;1;2mparent directory or name of directory to create[0m
+[Japache2[27m/[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/ap[K[K
+[J[0;1;2mparent directory or name of directory to create[0m
+[Japache2[27m/[27m  [27m[Jasl[27m/[27m    [27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/a[K[K
+[J[0;1;2mparent directory or name of directory to create[0m
+apache2[27m/[27m    [27m  [27masl[27m/[27m        [27m  [27mcups[27m/[27m       [27m  [27mdefaults[27m/[27m   [27m  [27mdotnet[27m/[27m     [27m  [27mmanpaths.d[27m/[27m [27m  [27mnewsyslog.d[27m/[27m  [27mopenldap[27m/[27m   [27m
+pam.d[27m/[27m      [27m  [27mpaths.d[27m/[27m    [27m  [27mperiodic[27m/[27m   [27m  [27mpf.anchors[27m/[27m [27m  [27mpostfix[27m/[27m    [27m  [27mppp[27m/[27m        [27m  [27mracoon[27m/[27m     [27m  [27msecurity[27m/[27m   [27m
+[Jsnmp[27m/[27m       [27m  [27m[Jssh[27m/[27m        [27m  [27m[Jssl[27m/[27m        [27m  [27m[Jsudoers.d[27m/[27m  [27m  [27m[Juucp[27m/[27m       [27m  [27m[Jwfs[27m/[27m        [27m  [27m[J            [27m            [27m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc/[K[K
+[J[0;1;2mparent directory or name of directory to create[0m
+[Jetc[27m@[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /etc[K[K
+[J[0;1;2mparent directory or name of directory to create[0m
+[Jetc[27m@[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /et[K[K
+[J[0;1;2mparent directory or name of directory to create[0m
+[Jetc[27m@[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /e[K[K
+[J[0;1;2mparent directory or name of directory to create[0m
+Applications[27m/[27m  [27mLibrary[27m/[27m  [27mSystem[27m/[27m  [27mUsers[27m/[27m  [27mVolumes[27m/[27m  [27mbin[27m/[27m  [27mcores[27m/[27m  [27mdev[27m/[27m  [27metc[27m@[27m  [27mhome[27m@[27m  [27mopt[27m/[27m  [27mprivate[27m/[27m  [27msbin[27m/[27m  [27mtmp[27m@[27m
+[Jusr[27m/[27m         [27m  [27m[Jvar[27m@[27m    [27m  [27m[J       [27m      [27m        [27m    [27m      [27m    [27m    [27m     [27m    [27m        [27m     [27m  [27m[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p /[K[K
+[J[0;1;2mparent directory or name of directory to create[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p[K[1C
+[J[0;1;2moption[0m
+-m  -- set permission mode[27m
+[J-v  -- print message for each created directory[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -p[K[K
+[J[0;1;2moption[0m
+-m  -- set permission mode[27m
+-p  -- make parent directories as needed[27m
+[J-v  -- print message for each created directory[27m[J[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir -[K[K
+[J[0;1;2mparent directory or name of directory to create[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir[K[1C
+[J[0;1;2mexternal command[0m
+[Jmkdir[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdir[K[K
+[J[0;1;2mexternal command[0m
+[Jmkdir[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkdi[K[K
+[J[0;1;2mexternal command[0m
+[Jmkdir[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mkd[K[K
+[J[0;1;2mexternal command[0m
+[Jmkbom[27m  [27m  [27m[Jmkbundle[27m  [27m  [27m[Jmkdir[27m  [27m  [27m[Jmkextunpack[27m  [27m  [27m[Jmkfifo[27m  [27m  [27m[Jmkfile[27m  [27m  [27m[Jmklocale[27m  [27m  [27m[Jmknod[27m  [27m  [27m[Jmkpassdb[27m  [27m  [27m[Jmktemp[27m  [27m  [27m[J[27m[27m[27m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo mk[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mexternal command[0m
+manpath[27m [27m  [27mmdassembler[27m   [27m  [27mmdls[27m            [27m  [27mmdoc[27m  [27m  [27mmdoc-export-html[27m  [27mmib2c[27m  [27mmig[27m         [27m  [27mmklocale[27m  [27mmknod[27m
+mono[27m    [27m  [27mmono-shlib-cop[27m  [27mmono-symbolicate[27m  [27mmono64[27m  [27mmonodis[27m         [27m  [27mmore[27m [27m  [27mmprof-report[27m  [27mmsgcomm[27m [27m  [27mmsgconv[27m
+msgmerge[27m  [27mmsguniq[27m       [27m  [27m                [27m      [27m                [27m     [27m            [27m        [27m     [27m
+[J[30m[104m(MORE)[39m[49m[7A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo m[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mexternal command[0m
+amt[27m     [27m  [27mdb_hotbackup[27m  [27medquota[27m  [27mlibnetcfg5.30[27m  [27mlpc[27m  [27mpdb2mdb[27m  [27mpgsql2shp[27m  [27mptar5.30[27m  [27msdk[27m  [27msdp[27m  [27mwc[27m  [27mxgettext[27m  [27myacc[27m
+yapp5.30[27m  [27myapp5.34[27m    [27m  [27m       [27m             [27m   [27m       [27m         [27m        [27m   [27m   [27m  [27m        [27m  [27m
+[J[30m[104m(MORE)[39m[49m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo[K[1C
+[J[0;1;2mexternal command[0m
+[Jsudo[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sudo[K[K
+[J[0;1;2mexternal command[0m
+[Jsudo[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+sud[K[K
+[J[0;1;2mbuiltin command[0m
+[Jsuspend[27m[J[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+su[Ks[K
+[J[0;1;2mreserved word[0m
+select[27m
+[0;1;2mbuiltin command[0m
+[Jsched[27m  [27m  [27m[Jset[27m    [27m  [27m[Jsetopt[27m [27m  [27m[Jshift[27m  [27m  [27m[Jsource[27m [27m  [27m[Jsuspend[27m  [27m[Jsysopen[27m[J[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnupg[K
+s[K[K
+[J[A[K[A[50C [1B[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gnup[K[K 
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl gn[K[K
+[J[J[0;2mno matching `action' or `package' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl g[K[K
+[J[J[0;2mno matching `action' or `package' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates curl[K[1C 
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates cur[K[K
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates cu[K[K 
+[J[J[0;2mno matching `action' or `package' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificates[K[1C 
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certificate[K[K 
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certifica[K[K 
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certifi[K[K 
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-certi[K[K 
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-cer[K[K 
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca-c[K[K 
+[J[J[0;2mno matching `action', `package', or `corrections' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y ca[K[K
+[J[J[0;2mno matching `action' or `package' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y c[K[K
+[J[J[0;2mno matching `action' or `package' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -y[K[1C 
+[J[J[0;2mno matching `action' or `package' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install -[K[K
+[J[J[0;2mno matching `action' or `package' completions[0m[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install[K[1C
+[J[0;1;2maction[0m
+[Jinstall[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get install[K[K
+[J[0;1;2maction[0m
+[Jinstall[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get instal[K[K
+[J[0;1;2maction[0m
+[Jinstall[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get insta[K[K
+[J[0;1;2maction[0m
+[Jinstall[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get inst[K[K
+[J[0;1;2maction[0m
+[Jinstall[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get ins[K[K
+[J[0;1;2maction[0m
+[Jinstall[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get in[K[K
+[J[0;1;2maction[0m
+[Jinstall[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get i[K[K
+[J[0;1;2maction[0m
+autoclean[27m  [27mautoremove[27m  [27mbuild-dep[27m  [27mchangelog[27m  [27mcheck[27m [27m  [27mclean[27m     [27m  [27mdist-upgrade[27m  [27mdownload[27m  [27mdselect-upgrade[27m  [27mhelp[27m
+[Jinstall[27m  [27m  [27m[Jmarkauto[27m  [27m  [27m[Jpurge[27m    [27m  [27m[Jremove[27m   [27m  [27m[Jsource[27m  [27m[Junmarkauto[27m  [27m[Jupdate[27m      [27m  [27m[Jupgrade[27m [27m  [27m[J               [27m  [27m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt-get[K[1C    
+[J[0;1;2mexternal command[0m
+[Japt[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo apt[K[K
+[J[0;1;2mexternal command[0m
+apachectl[27m  [27mapfs_hfs_convert[27m  [27mapfs_unlockfv[27m  [27mapp-sso[27m  [27mappleh13camerad[27m  [27mappleh16camerad[27m  [27mapplesingle[27m  [27mappletviewer[27m
+[Japply[27m    [27m  [27m[Jappsleepd[27m       [27m  [27m[Japrofutil[27m    [27m  [27m[Japropos[27m  [27m[Japt[27m            [27m  [27m[J               [27m           [27m          [27m[4A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo ap[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mexternal command[0m
+aa[27m [27m  [27mab[27m       [27m  [27mac[27m [27m  [27maccton[27m         [27m  [27mactool[27m     [27m  [27mafclip[27m      [27m  [27mafhash[27m     [27m  [27mafida[27m  [27mafktool[27m  [27mafscexpand[27m  [27magvtool[27m
+al[27m [27m  [27malias[27m    [27m  [27mamt[27m  [27mappleh13camerad[27m  [27mapplesingle[27m  [27mappletviewer[27m  [27mapt[27m        [27m  [27mar[27m   [27m  [27march[27m   [27m  [27marp[27m       [27m  [27mas[27m   [27m
+asa[27m  [27masp-state[27m  [27masr[27m  [27mat[27m             [27m  [27matq[27m        [27m  [27maudit[27m       [27m  [27mauditreduce[27m  [27mauval[27m  [27m       [27m          [27m     [27m
+[J[30m[104m(MORE)[39m[49m[6A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo a[K[K[30m[104m[39m[49m[30m[104m[39m[49m[30m[104m[39m[49m
+[J[0;1;2mexternal command[0m
+amt[27m     [27m  [27mdash[27m  [27mdb_hotbackup[27m  [27medquota[27m [27m  [27miotop[27m  [27mlibnetcfg5.30[27m  [27mlpc[27m  [27morbd[27m  [27mpdb2mdb[27m  [27mpgsql2shp[27m  [27mptar5.30[27m  [27msdk[27m  [27msdp[27m  [27mwc[27m
+xgettext[27m  [27myacc[27m  [27myapp5.30[27m    [27m  [27myapp5.34[27m  [27m     [27m             [27m   [27m    [27m       [27m         [27m        [27m   [27m   [27m[27m
+[J[30m[104m(MORE)[39m[49m[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo[K[1C
+[J[0;1;2mexternal command[0m
+[Jsudo[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sudo[K[K
+[J[0;1;2mexternal command[0m
+[Jsudo[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+sud[K[K
+[J[0;1;2mbuiltin command[0m
+[Jsuspend[27m[J[3A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+su[Ks[K
+[J[0;1;2mreserved word[0m
+select[27m
+[0;1;2mbuiltin command[0m
+[Jsched[27m  [27m  [27m[Jset[27m    [27m  [27m[Jsetopt[27m [27m  [27m[Jshift[27m  [27m  [27m[Jsource[27m [27m  [27m[Jsuspend[27m  [27m[Jsysopen[27m[J[5A[0m[27m[24m[53Cdocker start -i sudo apt-get update[K
+s[K[K
+[J[A[K[A[88C [1B[J[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[53Cdocker start -i sudo apt-get updat[K   
+[J[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[53Cdocker start -i sudo apt-get up[K 
+[J[0;1;2mancestor directory[0m
+[J/Users[27m/[27m[J[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get u[K 
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[A[A[0m[27m[24m[53Cdocker start -i sudo apt-get[K[1C 
+[J[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[53Cdocker start -i sudo apt-ge[K  
+[J[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[53Cdocker start -i sudo apt-[K  
+[J[0;1;2mdirectory[0m
+[Jtodo-app[27m/[27m[J[A[A[0m[27m[24m[53Cdocker start -i sudo ap[K 
+[J[0;1;2mrecent directory[0m
+[J~/Documents/Code/amdahlin-laki[27m/[27m[J[A[A[0m[27m[24m[53Cdocker start -i sudo a[K 
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[A[A[0m[27m[24m[53Cdocker start -i sudo[K[1C 
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[A[A[0m[27m[24m[53Cdocker start -i sud[K  
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m[J[A[A[0m[27m[24m[53Cdocker start -i s[K 
+[J[0;1;2mdirectory[0m
+[Jscript-answers[27m/[27m  [27m[Jtodo-app[27m/[27m      [27m[J[A[A[0m[27m[24m[53Cdocker start -i[K[1C[7mcondescending_rosalind[27m[22D[27mc[27mo[27mn[27md[27me[27ms[27mc[27me[27mn[27md[27mi[27mn[27mg[27m_[27mr[27mo[27ms[27ma[27ml[27mi[27mn[27md
+[J[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[53Cdocker start -i condescending_rosalind[K[?2004l
+[J[A[91C
+[J[?2004h]0;root@ec7cec7ced4c: /root@ec7cec7ced4c:/# [7msudo apt-get update[27m
+[7msudo apt-get install -y ca-certificates curl gnupg[27m
+[7msudo mkdir -p /etc/apt/keyrings[27m
+[7mcurl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesou[27m[7mr[27m[7mrce.gpg[27m[A[A[A[A7cec7ced4c:/# sudo apt-get update
+sudo apt-get install -y ca-certificates curl gnupg
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg[A -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/gpg --dearmor -o /etc/apt/keyrings/nodesourc[1P[Aurl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudogpg --dearmor -o /etc/apt/keyrings/nodesource[1P[Aurl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudgpg --dearmor -o /etc/apt/keyrings/nodesource.[1P[Aurl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sugpg --dearmor -o /etc/apt/keyrings/nodesource.g[1P[Aurl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sgpg --dearmor -o /etc/apt/keyrings/nodesource.gp[1Pg[Arl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | [Asudo mkdir -p /etc/apt/sudo [1P[1P[1P[1P[1P[Asudo apt-get install -y ca-certificates curl [1P[1P[1P[1P[1P[Aroot@ec7cec7ced4c:/# sudo apt-get [1P[1P[1P[1P[1P
+
+
+
+
+[?2004l0% [Working]0% [Waiting for headers]                        Hit:1 http://ports.ubuntu.com/ubuntu-ports jammy InRelease
+                        0% [Working]0% [Waiting for headers]                        Hit:2 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease
+0% [Waiting for headers]0% [Waiting for headers]                        Hit:3 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease
+                        0% [Working]0% [Waiting for headers]                        Hit:4 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease
+                        0% [Working]20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 76%Reading package lists... 76%Reading package lists... 80%Reading package lists... 80%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 91%Reading package lists... 91%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 76%Reading package lists... 76%Reading package lists... 80%Reading package lists... 80%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 91%Reading package lists... 91%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+ca-certificates is already the newest version (20230311ubuntu0.22.04.1).
+curl is already the newest version (7.81.0-1ubuntu1.14).
+gnupg is already the newest version (2.2.27-3ubuntu2.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[?2004h]0;root@ec7cec7ced4c: /root@ec7cec7ced4c:/# [K[7mNODE_MAJOR=20[27m
+[7mecho "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | [27m[7ms[27m[7msudo tee /etc/apt/sources.list.d/nodesource.list[27m[A[ANODE_MAJOR=20
+echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list[1P[1P[1P[1P[1P[Aecho "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro 
+
+[?2004ldeb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main
+[?2004h]0;root@ec7cec7ced4c: /root@ec7cec7ced4c:/# [K[7msudo apt-get update[27m
+[7msudo apt-get install nodejs -y[27m[Asudo apt-get update
+sudo apt-get install nodejs -y[1P[1P[1P[1P[1P[Aroot@ec7cec7ced4c:/# sudo apt-get [1P[1P[1P[1P[1P
+
+[?2004l0% [Working]            Get:1 https://deb.nodesource.com/node_20.x nodistro InRelease [12.1 kB]
+0% [Waiting for headers] [1 InRelease 12.1 kB/12.1 kB 100%]                                                           0% [Waiting for headers]                        Hit:2 http://ports.ubuntu.com/ubuntu-ports jammy InRelease
+0% [Waiting for headers]0% [Waiting for headers]                        Hit:3 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease
+0% [Waiting for headers]0% [Waiting for headers] [Waiting for headers]                                              Get:4 https://deb.nodesource.com/node_20.x nodistro/main arm64 Packages [3733 B]
+0% [Waiting for headers] [4 Packages 3733 B/3733 B 100%]                                                        0% [Waiting for headers]0% [4 Packages store 0 B] [Waiting for headers]                                               0% [Waiting for headers]0% [Waiting for headers]                        Hit:5 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease
+                        0% [Working]0% [Waiting for headers]                        Hit:6 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease
+                        0% [Working]100% [Working]              Fetched 15.9 kB in 0s (34.3 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 76%Reading package lists... 76%Reading package lists... 80%Reading package lists... 80%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 90%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 76%Reading package lists... 76%Reading package lists... 80%Reading package lists... 80%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 90%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+The following NEW packages will be installed:
+  nodejs
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 30.2 MB of archives.
+After this operation, 195 MB of additional disk space will be used.
+0% [Working]            Get:1 https://deb.nodesource.com/node_20.x nodistro/main arm64 nodejs arm64 20.9.0-1nodesource1 [30.2 MB]
+0% [1 nodejs 3562 B/30.2 MB 0%]8% [1 nodejs 3128 kB/30.2 MB 10%]22% [1 nodejs 8158 kB/30.2 MB 27%]36% [1 nodejs 13.4 MB/30.2 MB 45%]48% [1 nodejs 18.0 MB/30.2 MB 60%]63% [1 nodejs 23.9 MB/30.2 MB 79%]79% [1 nodejs 29.9 MB/30.2 MB 99%]                                  100% [Working]              Fetched 30.2 MB in 3s (9423 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package nodejs.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6041 files and directories currently installed.)
+Preparing to unpack .../nodejs_20.9.0-1nodesource1_arm64.deb ...
+Unpacking nodejs (20.9.0-1nodesource1) ...
+Setting up nodejs (20.9.0-1nodesource1) ...
+[?2004h]0;root@ec7cec7ced4c: /root@ec7cec7ced4c:/# [Knode -v
+[?2004lv20.9.0
+[?2004h]0;root@ec7cec7ced4c: /root@ec7cec7ced4c:/# node /usr         [7mnode /usr/src/app/index.js[27mnode /usr/src/app/index.js
+[?2004lHello World
+[?2004h]0;root@ec7cec7ced4c: /root@ec7cec7ced4c:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                      [0m[27m[24m[Jeliastuhola@MacBook part12-containers-applications % [K[?2004he
+[0;1;2mreserved word[0m
+elif[27m          [27m  [27melse[27m          [27m  [27mend[27m           [27m  [27mesac[27m          [27m  [27mexport[27m        [27m
+[0;1;2mbuiltin command[0m
+[Jecho[27m   [27m  [27m[Jechotc[27m [27m  [27m[Jechoti[27m [27m  [27m[Jemulate[27m  [27m[Jenable[27m [27m  [27m[Jeval[27m   [27m  [27m[Jexec[27m   [27m  [27m[Jexit[27m   [27m  [27m[Jexport[27m [27m[J[4A[0m[27m[24m[53Ce[Kex
+[J[0;1;2mreserved word[0m
+export[27m
+[0;1;2mbuiltin command[0m
+[Jexec[27m  [27m  [27m[Jexit[27m  [27m  [27m[Jexport[27m[J[4A[0m[27m[24m[53Cex[Ki
+[J[0;1;2mbuiltin command[0m
+[Jexit[27m[J[A[A[0m[27m[24m[53Cexi[Kt
+[J[0;1;2mbuiltin command[0m
+[Jexit[27m[J[A[A[0m[27m[24m[53Cexit[K[?2004l
+[J[A[57C
+[J
+Script done on Tue Nov  7 14:25:46 2023
