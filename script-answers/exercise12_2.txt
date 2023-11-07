@@ -1,0 +1,37 @@
+Script started on Tue Nov  7 13:03:32 2023
+[1m[7m%[27m[1m[0m                                                                                                                      [0m[27m[24m[Jeliastuhola@MacBook part12-containers-applications % [K[?2004h[7mdocker run -it ubuntu bash[27m[26D[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27mi[27mt[27m [27mu[27mb[27mu[27mn[27mt[27mu[27m [27mb[27ma[27ms[27mh
+[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[53Cdocker run -it ubuntu bash[K[?2004l
+[J[A[79C
+[J[?2004h]0;root@ec7cec7ced4c: /root@ec7cec7ced4c:/# ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[?2004h]0;root@ec7cec7ced4c: /root@ec7cec7ced4c:/# cd usr
+[?2004l[?2004h]0;root@ec7cec7ced4c: /usrroot@ec7cec7ced4c:/usr# ls
+[?2004l[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlibexec[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+[?2004h]0;root@ec7cec7ced4c: /usrroot@ec7cec7ced4c:/usr# cd src
+[?2004l[?2004h]0;root@ec7cec7ced4c: /usr/srcroot@ec7cec7ced4c:/usr/src# ls
+[?2004l[?2004h]0;root@ec7cec7ced4c: /usr/srcroot@ec7cec7ced4c:/usr/src# mkdir app
+[?2004l[?2004h]0;root@ec7cec7ced4c: /usr/srcroot@ec7cec7ced4c:/usr/src# ls
+[?2004l[0m[01;34mapp[0m
+[?2004h]0;root@ec7cec7ced4c: /usr/srcroot@ec7cec7ced4c:/usr/src# cd app
+[?2004l[?2004h]0;root@ec7cec7ced4c: /usr/src/approot@ec7cec7ced4c:/usr/src/app# ls
+[?2004l[?2004h]0;root@ec7cec7ced4c: /usr/src/approot@ec7cec7ced4c:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@ec7cec7ced4c: /usr/src/approot@ec7cec7ced4c:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@ec7cec7ced4c: /usr/src/approot@ec7cec7ced4c:/usr/src/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                      [0m[27m[24m[Jeliastuhola@MacBook part12-containers-applications % [K[?2004he
+[0;1;2mreserved word[0m
+elif[27m          [27m  [27melse[27m          [27m  [27mend[27m           [27m  [27mesac[27m          [27m  [27mexport[27m        [27m
+[0;1;2mbuiltin command[0m
+[Jecho[27m   [27m  [27m[Jechotc[27m [27m  [27m[Jechoti[27m [27m  [27m[Jemulate[27m  [27m[Jenable[27m [27m  [27m[Jeval[27m   [27m  [27m[Jexec[27m   [27m  [27m[Jexit[27m   [27m  [27m[Jexport[27m [27m[J[4A[0m[27m[24m[53Ce[Kex
+[J[0;1;2mreserved word[0m
+export[27m
+[0;1;2mbuiltin command[0m
+[Jexec[27m  [27m  [27m[Jexit[27m  [27m  [27m[Jexport[27m[J[4A[0m[27m[24m[53Cex[Ki
+[J[0;1;2mbuiltin command[0m
+[Jexit[27m[J[A[A[0m[27m[24m[53Cexi[Kt
+[J[0;1;2mbuiltin command[0m
+[Jexit[27m[J[A[A[0m[27m[24m[53Cexit[K[?2004l
+[J[A[57C
+[J
+Script done on Tue Nov  7 13:04:20 2023
