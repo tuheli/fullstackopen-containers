@@ -1,0 +1,114 @@
+List of used docker commands
+
+
+Note: better way to build images and run containers is achieved with dockerfiles
+
+
+Command line reference:
+https://docs.docker.com/engine/reference/commandline/cli/
+
+
+docker -v
+- shows docker version
+
+aliases:
+docker run
+docker container run
+
+docker container run hello-world
+- create and run a new container from an image
+- if the specified image is not found locally, docker will try to download one from docker hub
+
+docker container run -it ubuntu bash
+- options -i -t are combined into -it
+- i = interactive, t = allocate a pseudo-TTY (pseudo terminal)
+
+docker container run --help
+- shows help page for docker run
+
+docker container run --rm ubuntu ls
+- rm = automatically remove the container when it exits
+- ls = terminal command to list directory contents
+
+docker container ls -a
+- lists containers
+- a = show all container (default shows just running)
+- alias = docker ps
+
+docker start -i IMAGE-NAME
+- starts a container from an image
+- i = interactive
+
+docker kill IMAGE-NAME
+- kills running container/containers
+
+docker commit CONTAINER-NAME-OR-ID NEW-IMAGE-NAME
+- Create a new image from another container
+
+docker diff CONTAINER
+- Inspect changes to files or directories on a container's filesystem
+  
+docker image ls
+- list images
+
+docker container rm CONTAINER-NAME
+- Remove one or more containers
+
+docker container run -it --name hello-node node:16 bash
+- name = give a name to the container
+- node:16 = image parent from docker hub
+
+docker container cp ./index.js hello-node:/usr/src/app/index.js
+- Copy files/folders between a container and the local filesystem
+
+docker build -t fs-hello-world .
+- builds an image from Dockerfile
+- t = tag name, names the image
+- . refers to the dockerfile location, only . means the dockerfile is in current directory
+
+docker run -p 3123:3000 IMAGE-NAME
+- starts a container
+- p = Publish a container's port(s) to the host, in this example port 3123 is host post and 3000 is container port. Basically port 3123 on the host is redirected to the containers port 3000. Can use the same port number as well like 3000:3000!
+
+
+
+
+Ubuntu commands
+
+Reference page:
+https://manpages.ubuntu.com/manpages/jammy/man8/apt-get.8.html
+
+
+Note: apt-get and apt are different things
+
+
+apt-get update
+- resynchronize the package index
+
+apt-get -y install nano
+- y = automatic yes to prompts
+- install is followed by one or more packages desired for installation or upgrading
+- package is a package name, not a fully qualified filename
+
+nano /usr/src/app/index.js
+- opens index.js with nano
+
+note: next command will cause installation error if following course material. Node 16 is old.
+curl -sL https://deb.nodesource.com/setup_16.x | bash
+- curl  is a tool to transfer data from or to a server
+- s = Silent or quiet mode. Don't show progress meter  or  error  messages
+- L or location = If the server reports that the requested page has moved to a different location (indicated with a Location: header and a 3XX response code), this  option will  make  curl  redo  the  request  on  the  new place.
+- | = pipe, send the output of one command/program/process to another command/program/process for further processing; used to combine two or more commands, and in this, the output of one command acts as input to another command.
+- Bash is an sh-compatible command language interpreter that executes commands read from the standard input or from a file
+
+apt install -y nodejs
+- apt provides a high-level commandline interface for the package management system. It is intended as an end user interface and enables some options better suited for interactive usage by default compared to more specialized APT tools like apt-get(8) and apt-cache(8).
+- installs the previously downloaded nodejs package.
+- y = yes to prompts
+
+node /usr/src/app/index.js
+- runs index.js with node
+
+mkdir /usr/src/app
+- make directory
+
