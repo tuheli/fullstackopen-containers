@@ -79,6 +79,9 @@ docker compose up --build
 docker compose down
 - Stop and remove containers, networks
 
+docker compose -f docker-compose.dev.yml down --volumes
+- volumes = Remove named volumes declared in the "volumes" section of the Compose file and anonymous volumes attached to containers
+
 docker compose -f docker-compose.dev.yml up
 - f = name of the configuration file
 
@@ -92,46 +95,3 @@ docker compose -f docker-compose.dev.yml logs -f
 docker container run -v...
 - v = volume list, bind mount a volume (file or directory) between host and container
 - Changes to either file will be available in the other
-
-
-
-
-Ubuntu commands
-
-Reference page:
-https://manpages.ubuntu.com/manpages/jammy/man8/apt-get.8.html
-
-
-Note: apt-get and apt are different things
-
-
-apt-get update
-- resynchronize the package index
-
-apt-get -y install nano
-- y = automatic yes to prompts
-- install is followed by one or more packages desired for installation or upgrading
-- package is a package name, not a fully qualified filename
-
-nano /usr/src/app/index.js
-- opens index.js with nano
-
-note: next command will cause installation error if following course material. Node 16 is old.
-curl -sL https://deb.nodesource.com/setup_16.x | bash
-- curl  is a tool to transfer data from or to a server
-- s = Silent or quiet mode. Don't show progress meter  or  error  messages
-- L or location = If the server reports that the requested page has moved to a different location (indicated with a Location: header and a 3XX response code), this  option will  make  curl  redo  the  request  on  the  new place.
-- | = pipe, send the output of one command/program/process to another command/program/process for further processing; used to combine two or more commands, and in this, the output of one command acts as input to another command.
-- Bash is an sh-compatible command language interpreter that executes commands read from the standard input or from a file
-
-apt install -y nodejs
-- apt provides a high-level commandline interface for the package management system. It is intended as an end user interface and enables some options better suited for interactive usage by default compared to more specialized APT tools like apt-get(8) and apt-cache(8).
-- installs the previously downloaded nodejs package.
-- y = yes to prompts
-
-node /usr/src/app/index.js
-- runs index.js with node
-
-mkdir /usr/src/app
-- make directory
-
