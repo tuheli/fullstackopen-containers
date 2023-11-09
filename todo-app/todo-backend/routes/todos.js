@@ -17,7 +17,11 @@ router.post('/', async (req, res) => {
     done: false
   })
   const todoCount = parseInt(await getAsync('added_todos'))
-  await setAsync('added_todos', todoCount + 1)
+  if (isNaN(todoCount)) {
+    await setAsync('added_todos', 1)
+  } else {
+    await setAsync('added_todos', todoCount + 1)
+  }
   res.send(todo);
 });
 
