@@ -1,0 +1,10 @@
+# For reference see https://docs.docker.com/compose/compose-file/03-compose-file/
+
+version: '3.8'            # optional, informative for backwards compatibility
+
+services:
+  app:                    # The name of the service, can be anything
+    image: express-server # Declares which image to use
+    build: .              # Declares where to build if image is not found
+    ports:                # Declares the ports to publish
+      - "3000:3000"
