@@ -73,8 +73,27 @@ docker run -p 3123:3000 IMAGE-NAME
 docker compose up
 - Create and start containers
 
+docker compose up --build
+- build = build images before starting containers.
+
 docker compose down
 - Stop and remove containers, networks
+
+docker compose -f docker-compose.dev.yml up
+- f = name of the configuration file
+
+docker compose -f docker-compose.dev.yml up -d
+- d = Detached mode: Run containers in the background
+
+docker compose -f docker-compose.dev.yml logs -f
+- logs = View output from containers
+- f = Follow log output
+
+docker container run -v...
+- v = volume list, bind mount a volume (file or directory) between host and container
+- Changes to either file will be available in the other
+
+
 
 
 Ubuntu commands
