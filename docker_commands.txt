@@ -104,3 +104,8 @@ docker volume inspect VOLUME-ID
 
 docker volume rm VOLUME-ID
 - remove volume
+
+docker exec -it CONTAINER-NAME bash
+- exec = execute commands in a container
+- above script starts bash in interactive mode
+
