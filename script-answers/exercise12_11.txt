@@ -1,0 +1,168 @@
+Script started on Thu Nov  9 17:19:51 2023
+[1m[7m%[27m[1m[0m                                                                                                                                   [0m[27m[24m[Jeliastuhola@MacBook todo-backend % [K[?2004hd
+[0;1;2mreserved word[0m
+declare[27m   [27m  [27mdo[27m        [27m  [27mdone[27m      [27m
+[0;1;2mbuiltin command[0m
+[Jdeclare[27m  [27m[Jdirs[27m   [27m  [27m[Jdisable[27m  [27m[Jdisown[27m [27m[J[4A[0m[27m[24m[35Cd[Kdo
+[J[0;1;2mreserved word[0m
+[Jdo[27m  [27m  [27m[Jdone[27m[J[A[A[0m[27m[24m[35Cdo[Kc[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+docker[27m  [27mdocker-compose[27m  [27mdocker-credential-desktop[27m  [27mdocker-credential-ecr-login[27m  [27mdocker-credential-osxkeychain[27m  [27mdocker-index[27m  [27m[27m[27m[27m[27m[27m[27m[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[35Cdoc[Kk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+docker[27m  [27mdocker-compose[27m  [27mdocker-credential-desktop[27m  [27mdocker-credential-ecr-login[27m  [27mdocker-credential-osxkeychain[27m  [27mdocker-index[27m  [27m[27m[27m[27m[27m[27m[27m[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[35Cdock[Ke[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+docker[27m  [27mdocker-compose[27m  [27mdocker-credential-desktop[27m  [27mdocker-credential-ecr-login[27m  [27mdocker-credential-osxkeychain[27m  [27mdocker-index[27m  [27m[27m[27m[27m[27m[27m[27m[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[35Cdocke[Kr
+[J[0;1;2mexternal command[0m
+[Jdocker[27m  [27m[Jdocker-compose[27m  [27m[Jdocker-credential-desktop[27m  [27m[Jdocker-credential-ecr-login[27m  [27m[Jdocker-credential-osxkeychain[27m  [27m[Jdocker-index[27m  [27m[J[27m[27m[27m[27m[27m[27m[27m[A[A[0m[27m[24m[35Cdocker[K
+[J[A[41C 
+[J[0;1;2mdirectory[0m
+bin[27m/[27m         [27m  [27mmongo[27m/[27m       [27m  [27mmongo_data[27m/[27m  [27m  [27mnode_modules[27m/[27m  [27mredis[27m/[27m       [27m  [27mrequests[27m/[27m    [27m  [27mroutes[27m/[27m      [27m  [27mutil[27m/[27m        [27m
+[0;1;2mfile[0m
+[JDockerfile[27m  [27m[JREADME.md[27m  [27m[Japp.js[27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m  [27m[Jpackage-lock.json[27m  [27m[Jpackage.json[27m  [27m[J[27m[27m[27m[27m[27m[27m[4A[0m[27m[24m[35Cdocker[K[1Ce
+[J[0;1;2mancestor directory[0m
+[J/Users/eliastuhola[27m/[27m[J[A[A[0m[27m[24m[35Cdocker e[Kx
+[J[0;1;2mancestor directory[0m
+[J/Users/eliastuhola[27m/[27m[J[A[A[0m[27m[24m[35Cdocker ex[Ke[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mdirectory[0m
+redis[27m/[27m   [27m  [27mrequests[27m/[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mre[39m[49m[3A[0m[27m[24m[35Cdocker exe[Kc
+[J[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[35Cdocker exec[K
+[J[A[46C 
+[J[0;1;2mdirectory[0m
+bin[27m/[27m         [27m  [27mmongo[27m/[27m       [27m  [27mmongo_data[27m/[27m  [27m  [27mnode_modules[27m/[27m  [27mredis[27m/[27m       [27m  [27mrequests[27m/[27m    [27m  [27mroutes[27m/[27m      [27m  [27mutil[27m/[27m        [27m
+[0;1;2mfile[0m
+[JDockerfile[27m  [27m[JREADME.md[27m  [27m[Japp.js[27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m  [27m[Jpackage-lock.json[27m  [27m[Jpackage.json[27m  [27m[J[27m[27m[27m[27m[27m[27m[4A[0m[27m[24m[35Cdocker exec[K[1C-
+[J[0;1;2mdirectory[0m
+mongo_data[27m/[27m                       [27m  [27mnode_modules[27m/[27m                     [27m
+[0;1;2mfile[0m
+[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m    [27m  [27m[Jpackage-lock.json[27m     [27m[J[4A[0m[27m[24m[35Cdocker exec -[Ki
+[J[0;1;2mancestor directory[0m
+[J/Users/eliastuhola/Documents/Code/part12-containers-applications[27m/[27m[J[A[A[0m[27m[24m[35Cdocker exec -i[Kt
+[J[0;1;2mancestor directory[0m
+[J/Users/eliastuhola/Documents/Code/part12-containers-applications[27m/[27m[J[A[A[0m[27m[24m[35Cdocker exec -it[K
+[J[A[50C 
+[J[0;1;2mdirectory[0m
+bin[27m/[27m         [27m  [27mmongo[27m/[27m       [27m  [27mmongo_data[27m/[27m  [27m  [27mnode_modules[27m/[27m  [27mredis[27m/[27m       [27m  [27mrequests[27m/[27m    [27m  [27mroutes[27m/[27m      [27m  [27mutil[27m/[27m        [27m
+[0;1;2mfile[0m
+[JDockerfile[27m  [27m[JREADME.md[27m  [27m[Japp.js[27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m  [27m[Jpackage-lock.json[27m  [27m[Jpackage.json[27m  [27m[J[27m[27m[27m[27m[27m[27m[4A[0m[27m[24m[35Cdocker exec -it[K[1C
+[J[0;1;2mancestor directory[0m
+[J/Users/eliastuhola/Documents/Code/part12-containers-applications[27m/[27m[J[A[A[0m[27m[24m[35Cdocker exec -it[K  
+[J[0;1;2mdirectory[0m
+mongo_data[27m/[27m                       [27m  [27mnode_modules[27m/[27m                     [27m
+[0;1;2mfile[0m
+[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m    [27m  [27m[Jpackage-lock.json[27m     [27m[J[4A[0m[27m[24m[35Cdocker exec -[K 
+[J[0;1;2mdirectory[0m
+bin[27m/[27m         [27m  [27mmongo[27m/[27m       [27m  [27mmongo_data[27m/[27m  [27m  [27mnode_modules[27m/[27m  [27mredis[27m/[27m       [27m  [27mrequests[27m/[27m    [27m  [27mroutes[27m/[27m      [27m  [27mutil[27m/[27m        [27m
+[0;1;2mfile[0m
+[JDockerfile[27m  [27m[JREADME.md[27m  [27m[Japp.js[27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m  [27m[Jpackage-lock.json[27m  [27m[Jpackage.json[27m  [27m[J[27m[27m[27m[27m[27m[27m[4A[0m[27m[24m[35Cdocker exec[K[1C [30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mdirectory[0m
+redis[27m/[27m   [27m  [27mrequests[27m/[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mre[39m[49m[3A[0m[27m[24m[35Cdocker exe[K  
+[J[0;1;2mancestor directory[0m
+[J/Users/eliastuhola[27m/[27m[J[A[A[0m[27m[24m[35Cdocker e[K 
+[J[0;1;2mdirectory[0m
+bin[27m/[27m         [27m  [27mmongo[27m/[27m       [27m  [27mmongo_data[27m/[27m  [27m  [27mnode_modules[27m/[27m  [27mredis[27m/[27m       [27m  [27mrequests[27m/[27m    [27m  [27mroutes[27m/[27m      [27m  [27mutil[27m/[27m        [27m
+[0;1;2mfile[0m
+[JDockerfile[27m  [27m[JREADME.md[27m  [27m[Japp.js[27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m  [27m[Jpackage-lock.json[27m  [27m[Jpackage.json[27m  [27m[J[27m[27m[27m[27m[27m[27m[4A[0m[27m[24m[35Cdocker[K[1Cps
+[J[0;1;2mfile[0m
+[Japp.js[27m                [27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m    [27m  [27m[Jpackage-lock.json[27m     [27m  [27m[Jpackage.json[27m          [27m[J[A[A[0m[27m[24m[35Cdocker ps[K[?2004l
+[J[A[44C
+[JCONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS              PORTS                     NAMES
+1ff24adebbea   mongo     "docker-entrypoint.s…"   About a minute ago   Up About a minute   0.0.0.0:3456->27017/tcp   todo-backend-mongo-1
+707800776b44   redis     "docker-entrypoint.s…"   About a minute ago   Up About a minute   0.0.0.0:6379->6379/tcp    todo-backend-redis-1
+[1m[7m%[27m[1m[0m                                                                                                                                   [0m[27m[24m[Jeliastuhola@MacBook todo-backend % [K[?2004hd
+[0;1;2mreserved word[0m
+declare[27m   [27m  [27mdo[27m        [27m  [27mdone[27m      [27m
+[0;1;2mbuiltin command[0m
+[Jdeclare[27m  [27m[Jdirs[27m   [27m  [27m[Jdisable[27m  [27m[Jdisown[27m [27m[J[4A[0m[27m[24m[35Cd[Kdo
+[J[0;1;2mreserved word[0m
+[Jdo[27m  [27m  [27m[Jdone[27m[J[A[A[0m[27m[24m[35Cdo[Kc[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+docker[27m  [27mdocker-compose[27m  [27mdocker-credential-desktop[27m  [27mdocker-credential-ecr-login[27m  [27mdocker-credential-osxkeychain[27m  [27mdocker-index[27m  [27m[27m[27m[27m[27m[27m[27m[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[35Cdoc[Kk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+docker[27m  [27mdocker-compose[27m  [27mdocker-credential-desktop[27m  [27mdocker-credential-ecr-login[27m  [27mdocker-credential-osxkeychain[27m  [27mdocker-index[27m  [27m[27m[27m[27m[27m[27m[27m[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[35Cdock[Ke[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mexternal command[0m
+docker[27m  [27mdocker-compose[27m  [27mdocker-credential-desktop[27m  [27mdocker-credential-ecr-login[27m  [27mdocker-credential-osxkeychain[27m  [27mdocker-index[27m  [27m[27m[27m[27m[27m[27m[27m[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[35Cdocke[Kr
+[J[0;1;2mexternal command[0m
+[Jdocker[27m  [27m[Jdocker-compose[27m  [27m[Jdocker-credential-desktop[27m  [27m[Jdocker-credential-ecr-login[27m  [27m[Jdocker-credential-osxkeychain[27m  [27m[Jdocker-index[27m  [27m[J[27m[27m[27m[27m[27m[27m[27m[A[A[0m[27m[24m[35Cdocker[K
+[J[A[41C 
+[J[0;1;2mdirectory[0m
+bin[27m/[27m         [27m  [27mmongo[27m/[27m       [27m  [27mmongo_data[27m/[27m  [27m  [27mnode_modules[27m/[27m  [27mredis[27m/[27m       [27m  [27mrequests[27m/[27m    [27m  [27mroutes[27m/[27m      [27m  [27mutil[27m/[27m        [27m
+[0;1;2mfile[0m
+[JDockerfile[27m  [27m[JREADME.md[27m  [27m[Japp.js[27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m  [27m[Jpackage-lock.json[27m  [27m[Jpackage.json[27m  [27m[J[27m[27m[27m[27m[27m[27m[4A[0m[27m[24m[35Cdocker[K[1Ce
+[J[0;1;2mancestor directory[0m
+[J/Users/eliastuhola[27m/[27m[J[A[A[0m[27m[24m[35Cdocker e[Kxe[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;1;2mdirectory[0m
+redis[27m/[27m   [27m  [27mrequests[27m/[27m
+[J[0;2m[1mcommon substring:[0m [30m[103mre[39m[49m[3A[0m[27m[24m[35Cdocker exe[Kc
+[J[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[35Cdocker exec[K
+[J[A[46C 
+[J[0;1;2mdirectory[0m
+bin[27m/[27m         [27m  [27mmongo[27m/[27m       [27m  [27mmongo_data[27m/[27m  [27m  [27mnode_modules[27m/[27m  [27mredis[27m/[27m       [27m  [27mrequests[27m/[27m    [27m  [27mroutes[27m/[27m      [27m  [27mutil[27m/[27m        [27m
+[0;1;2mfile[0m
+[JDockerfile[27m  [27m[JREADME.md[27m  [27m[Japp.js[27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m  [27m[Jpackage-lock.json[27m  [27m[Jpackage.json[27m  [27m[J[27m[27m[27m[27m[27m[27m[4A[0m[27m[24m[35Cdocker exec[K[1C-
+[J[0;1;2mdirectory[0m
+mongo_data[27m/[27m                       [27m  [27mnode_modules[27m/[27m                     [27m
+[0;1;2mfile[0m
+[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m    [27m  [27m[Jpackage-lock.json[27m     [27m[J[4A[0m[27m[24m[35Cdocker exec -[Kit
+[J[0;1;2mancestor directory[0m
+[J/Users/eliastuhola/Documents/Code/part12-containers-applications[27m/[27m[J[A[A[0m[27m[24m[35Cdocker exec -it[K
+[J[A[50C 
+[J[0;1;2mdirectory[0m
+bin[27m/[27m         [27m  [27mmongo[27m/[27m       [27m  [27mmongo_data[27m/[27m  [27m  [27mnode_modules[27m/[27m  [27mredis[27m/[27m       [27m  [27mrequests[27m/[27m    [27m  [27mroutes[27m/[27m      [27m  [27mutil[27m/[27m        [27m
+[0;1;2mfile[0m
+[JDockerfile[27m  [27m[JREADME.md[27m  [27m[Japp.js[27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m  [27m[Jpackage-lock.json[27m  [27m[Jpackage.json[27m  [27m[J[27m[27m[27m[27m[27m[27m[4A[0m[27m[24m[35Cdocker exec -it[K[1C[7mtodo-backend-redis-1[27m[20D[27mt[27mo[27md[27mo[27m-[27mb[27ma[27mc[27mk[27me[27mn[27md[27m-[27mr[27me[27md[27mi[27ms[27m-[27m1
+[J[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[35Cdocker exec -it todo-backend-redis-1[K
+[J[A[71C 
+[J[0;1;2mdirectory[0m
+bin[27m/[27m         [27m  [27mmongo[27m/[27m       [27m  [27mmongo_data[27m/[27m  [27m  [27mnode_modules[27m/[27m  [27mredis[27m/[27m       [27m  [27mrequests[27m/[27m    [27m  [27mroutes[27m/[27m      [27m  [27mutil[27m/[27m        [27m
+[0;1;2mfile[0m
+[JDockerfile[27m  [27m[JREADME.md[27m  [27m[Japp.js[27m  [27m[Jdocker-compose.dev.yml[27m  [27m[Jdocker-compose.yml[27m  [27m[Jpackage-lock.json[27m  [27m[Jpackage.json[27m  [27m[J[27m[27m[27m[27m[27m[27m[4A[0m[27m[24m[35Cdocker exec -it todo-backend-redis-1[K[1Cb
+[J[0;1;2mdirectory[0m
+[Jbin[27m/[27m[J[A[A[0m[27m[24m[35Cdocker exec -it todo-backend-redis-1 b[Kas
+[J[0;1;2mdirectory[0m
+[Jbin[27m/[27m[J[A[A[0m[27m[24m[35Cdocker exec -it todo-backend-redis-1 bas[Kh
+[J[J[0;2mno matching `directory', `file', `ancestor directory', `recent directory', or `corrections' completions[0m[A[0m[27m[24m[35Cdocker exec -it todo-backend-redis-1 bash[K[?2004l
+[J[A[76C
+[J[?2004hroot@707800776b44:/data# redis-cli -v
+[?2004lredis-cli 7.2.3
+[?2004hroot@707800776b44:/data# redis-cli KEYS *
+[?2004l1) "added_todos"
+[?2004hroot@707800776b44:/data# redis-cli GET added_todos
+[?2004l"1"
+[?2004hroot@707800776b44:/data# redis-cli SET added: _todos 9001
+[?2004lOK
+[?2004hroot@707800776b44:/data# redis-cli GET added_todos
+[?2004l"9001"
+[?2004hroot@707800776b44:/data# redis-cli GET added_todos
+[?2004l"9002"
+[?2004hroot@707800776b44:/data# redis-cli DEL added_todos
+[?2004l(integer) 1
+[?2004hroot@707800776b44:/data# redis-cli DEL added_todosGET added_todos
+[?2004l"1"
+[?2004hroot@707800776b44:/data# redis-cli GET added_todos
+[?2004l"6"
+[?2004hroot@707800776b44:/data# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                   [0m[27m[24m[Jeliastuhola@MacBook todo-backend % [K[?2004he
+[0;1;2mreserved word[0m
+elif[27m          [27m  [27melse[27m          [27m  [27mend[27m           [27m  [27mesac[27m          [27m  [27mexport[27m        [27m
+[0;1;2mbuiltin command[0m
+[Jecho[27m   [27m  [27m[Jechotc[27m [27m  [27m[Jechoti[27m [27m  [27m[Jemulate[27m  [27m[Jenable[27m [27m  [27m[Jeval[27m   [27m  [27m[Jexec[27m   [27m  [27m[Jexit[27m   [27m  [27m[Jexport[27m [27m[J[4A[0m[27m[24m[35Ce[Kex
+[J[0;1;2mreserved word[0m
+export[27m
+[0;1;2mbuiltin command[0m
+[Jexec[27m  [27m  [27m[Jexit[27m  [27m  [27m[Jexport[27m[J[4A[0m[27m[24m[35Cex[Ki
+[J[0;1;2mbuiltin command[0m
+[Jexit[27m[J[A[A[0m[27m[24m[35Cexi[Kt
+[J[0;1;2mbuiltin command[0m
+[Jexit[27m[J[A[A[0m[27m[24m[35Cexit[K[?2004l
+[J[A[39C
+[J
+Script done on Thu Nov  9 17:23:02 2023
