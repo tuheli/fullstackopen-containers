@@ -1,0 +1,17 @@
+# For reference see https://hub.docker.com/_/mongo
+
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo
+    ports:
+      - "3456:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    volumes:
+      - type: bind
+        source: ./mongo/mongo-init.js
+        target: /docker-entrypoint-initdb.d/mongo-init.js
