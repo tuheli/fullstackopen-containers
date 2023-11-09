@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+# bound data between container mongo database and host
+mongo_data
