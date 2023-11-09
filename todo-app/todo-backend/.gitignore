@@ -62,3 +62,6 @@ typings/
 
 # bound data between container mongo database and host
 mongo_data
+
+# bound data between container redis and host
+redis_data
