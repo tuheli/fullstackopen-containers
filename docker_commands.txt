@@ -95,3 +95,12 @@ docker compose -f docker-compose.dev.yml logs -f
 docker container run -v...
 - v = volume list, bind mount a volume (file or directory) between host and container
 - Changes to either file will be available in the other
+
+docker volume ls
+- list volumes
+
+docker volume inspect VOLUME-ID
+- Display detailed information on one or more volumes
+
+docker volume rm VOLUME-ID
+- remove volume
