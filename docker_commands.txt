@@ -39,7 +39,7 @@ docker start -i IMAGE-NAME
 - starts a container from an image
 - i = interactive
 
-docker kill IMAGE-NAME
+docker kill CONTAINER-NAME
 - kills running container/containers
 
 docker commit CONTAINER-NAME-OR-ID NEW-IMAGE-NAME
@@ -70,7 +70,11 @@ docker run -p 3123:3000 IMAGE-NAME
 - starts a container
 - p = Publish a container's port(s) to the host, in this example port 3123 is host post and 3000 is container port. Basically port 3123 on the host is redirected to the containers port 3000. Can use the same port number as well like 3000:3000!
 
+docker compose up
+- Create and start containers
 
+docker compose down
+- Stop and remove containers, networks
 
 
 Ubuntu commands
