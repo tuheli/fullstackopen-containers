@@ -10,10 +10,16 @@ test('renders content', () => {
     done: false
   }
   
-  const onClickDelete = () => {}
-  const onClickComplete = () => {}
+  const onClickDelete = jest.fn()
+  
+  const onClickComplete = jest.fn()
 
-  render(<Todo todo={todo} onClickDelete={onClickDelete} onClickComplete={onClickComplete} />)
+  render(
+    <Todo 
+      todo={todo} 
+      onClickDelete={onClickDelete}
+      onClickComplete={onClickComplete} 
+    />)
   
   screen.debug()
 
