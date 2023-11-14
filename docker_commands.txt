@@ -114,3 +114,8 @@ docker exec -it CONTAINER-NAME bash
 - exec = execute commands in a container
 - above script starts bash in interactive mode
 
+docker rm -f $(docker ps -a -q)
+- remove all containers
+
+docker volume rm $(docker volume ls -q)
+- remove all volumes
