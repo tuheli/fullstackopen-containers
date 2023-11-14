@@ -4,8 +4,8 @@ WORKDIR /usr/src/app
 
 COPY --chown=node:node  . .
 
-RUN npm ci
+RUN npm install
 
 USER node
 
-CMD node ./bin/www
+CMD ["npm", "run", "dev"]
