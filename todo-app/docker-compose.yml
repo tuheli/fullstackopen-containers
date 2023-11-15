@@ -1,0 +1,48 @@
+services:
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    volumes:
+      - type: bind
+        source: ./todo-backend/mongo/mongo-init.js
+        target: /docker-entrypoint-initdb.d/mongo-init.js
+      - type: bind
+        source: ./todo-backend/mongo_data
+        target: /data/db
+  redis:
+    image: redis
+    command: [ 'redis-server', '--appendonly', 'yes' ]
+    volumes:
+      - type: bind
+        source: ./todo-backend/redis_data
+        target: /data
+  server:
+    image: server-production
+    build: 
+      context: todo-backend
+      dockerfile: Dockerfile
+    environment:
+      - MONGO_URL=mongodb://the_username:the_password@mongo:27017/the_database
+      - REDIS_URL=redis://redis:6379
+  client:
+    image: client-production
+    build:
+      context: todo-frontend
+      dockerfile: Dockerfile
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:8080/api
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - type: bind
+        source: ./nginx.conf
+        target: /etc/nginx/nginx.conf
+        read_only: true
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - client
