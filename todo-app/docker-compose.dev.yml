@@ -20,8 +20,10 @@ services:
         source: ./todo-backend/redis_data
         target: /data
   server:
-    image: server
-    build: ./todo-backend
+    image: server-development
+    build:
+      context: todo-backend
+      dockerfile: dev.Dockerfile
     volumes:
       - type: bind
         source: ./todo-backend
@@ -29,16 +31,17 @@ services:
     environment:
       - MONGO_URL=mongodb://the_username:the_password@mongo:27017/the_database
       - REDIS_URL=redis://redis:6379
-  app:
-    image: hello-front-dev
+  client:
+    image: client-development
     build:
-      context: ./todo-frontend
-      dockerfile: ./todo-frontend/dev.Dockerfile
+      context: todo-frontend
+      dockerfile: dev.Dockerfile
     volumes:
-      - ./todo-frontend:/usr/src/app
+      - type: bind
+        source: ./todo-frontend
+        target: /usr/src/app
     environment:
       - REACT_APP_BACKEND_URL=http://localhost:8080/api
-    container_name: hello-front-dev
   nginx:
     image: nginx:1.20.1
     volumes:
@@ -50,4 +53,4 @@ services:
       - 8080:80
     container_name: reverse-proxy
     depends_on:
-      - app
+      - client
