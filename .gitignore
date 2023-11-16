@@ -1,2 +1,5 @@
 # rider ide
 .idea
+
+# macOS
+.DS_Store
