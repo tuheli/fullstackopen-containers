@@ -1,0 +1,36 @@
+services: 
+  server:
+    image: server-development-my-app
+    build:
+      context: backend
+      dockerfile: dev.Dockerfile
+    environment:
+      - PORT=3001
+    volumes:
+      - type: bind
+        source: ./backend
+        target: /usr/src/app
+  client:
+    image: client-development-my-app
+    build:
+      context: frontend
+      dockerfile: dev.Dockerfile
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:8080/api
+      - WDS_SOCKET_PORT=0 # https://github.com/facebook/create-react-app/issues/11779
+    volumes:
+      - type: bind
+        source: ./frontend
+        target: /usr/src/app
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - type: bind
+        source: ./nginx.dev.conf
+        target: /etc/nginx/nginx.conf
+        read_only: true
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - client
