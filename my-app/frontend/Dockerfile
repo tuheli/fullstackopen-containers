@@ -6,7 +6,7 @@ COPY . .
 
 ENV REACT_APP_BACKEND_URL=http://localhost:8080/api
 
-RUN npm ci
+RUN npm ci --only=production
 RUN npm run build
 
 FROM nginx:1.20-alpine
