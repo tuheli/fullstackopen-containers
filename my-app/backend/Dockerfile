@@ -18,6 +18,6 @@ COPY --from=build-stage /usr/src/app/data /usr/src/app/data
 COPY --from=build-stage /usr/src/app/package.json /usr/src/app
 COPY --from=build-stage /usr/src/app/package-lock.json /usr/src/app
 
-RUN npm ci
+RUN npm ci --only=production
 
 CMD ["npm", "start"]
