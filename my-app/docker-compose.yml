@@ -1,0 +1,25 @@
+services:
+  server:
+    image: server-production-my-app
+    build:
+      context: backend
+      dockerfile: Dockerfile
+    environment:
+      - PORT=3001
+  client:
+    image: client-production-my-app
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - type: bind
+        source: ./nginx.conf
+        target: /etc/nginx/nginx.conf
+        read_only: true
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - client

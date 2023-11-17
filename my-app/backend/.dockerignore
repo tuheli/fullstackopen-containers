@@ -1,0 +1,6 @@
+.dockerignore
+.gitignore
+.eslintrc
+node_modules
+dev.Dockerfile
+requests
